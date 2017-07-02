@@ -1,7 +1,7 @@
 Fully automated {N} _Out Of Memory_ Crash App
 =============================================
 
-NativeScript with Angular (with `enableProdMode()`).
+_NativeScript app, with Angular in "production mode"_
 
 ```bash
 git clone https://github.com/EddyVerbruggen/nativescript-ios-out-of-memory
@@ -24,13 +24,13 @@ Eventually, this leads to an Out of Memory exception and the app crashes. That's
 Here's a few screenshots of heap consumption on a simulator, after running the nr of loops as shown on the phone, and after manually invoking `GC()`:
 
 #### 100 loops (should work on most phones)
-<img src="media/100loops.png" width="90%/>
+<img src="media/100loops.png" width="90%"/>
 
 #### 172 loops (enough to crash an iPhone 5S / iPad Air)
-<img src="media/172loops.png" width="90%/>
+<img src="media/172loops.png" width="90%"/>
 
 #### 250 loops (enough to crash an iPhone 6S / iPad Air 2)
-<img src="media/250loops.png" width="90%/>
+<img src="media/250loops.png" width="90%"/>
 
 #### 500 loops (enough to even crash an iPad Pro)
-<img src="media/250loops.png" width="90%/>
+<img src="media/250loops.png" width="90%"/>
