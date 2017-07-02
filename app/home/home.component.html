@@ -1,0 +1,16 @@
+<ActionBar title="Home" class="action-bar">
+</ActionBar>
+
+<StackLayout>
+  <!--<Button [nsRouterLink]="['/items']" text="Load ListView" class="page p-30"></Button>-->
+
+  <Button (tap)="loop(10)" text="Loop 10x (approx 200MB)" class="p-20"></Button>
+  <Button (tap)="loop(100)" text="Loop 100x (approx 400MB)" class="p-20"></Button>
+  <Button (tap)="loop(250)" text="Loop 250x (approx 800MB)" class="p-20"></Button>
+  <Button (tap)="loop(500)" text="Loop 500x (approx 1.5GB)" class="p-20"></Button>
+
+  <Label [text]="'Loop count: ' + currentLoop" class="p-20" horizontalAlignment="center"></Label>
+
+  <Button (tap)="doGC()" text="Collect Garbage" class="c-orange" style="margin-top: 50"></Button>
+
+</StackLayout>
