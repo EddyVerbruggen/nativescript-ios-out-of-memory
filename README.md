@@ -3,6 +3,8 @@ Fully automated {N} _Out Of Memory_ Crash App
 
 _NativeScript app, with Angular in "production mode"_
 
+**Crashes on `tns-ios` 3.0.0 and up, not on `tns-ios` 2.5.1 and lower.**
+
 ```bash
 git clone https://github.com/EddyVerbruggen/nativescript-ios-out-of-memory
 cd nativescript-ios-out-of-memory
