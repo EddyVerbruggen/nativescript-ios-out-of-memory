@@ -5,6 +5,9 @@ _NativeScript app, with Angular in "production mode"_
 
 **Crashes on `tns-ios` 3.0.0 and up, not on `tns-ios` 2.5.1 and lower.**
 
+
+**UPDATE Aug 25, 2017:** The awesome NativeScript engineers have fixed the issue! 🎉🎉🎉 See [https://github.com/NativeScript/NativeScript/issues/4490#issuecomment-324918952](this comment) for details.
+
 ```bash
 git clone https://github.com/EddyVerbruggen/nativescript-ios-out-of-memory
 cd nativescript-ios-out-of-memory
